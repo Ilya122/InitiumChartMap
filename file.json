@@ -10,78 +10,214 @@
             "y": 0
         },
         {
-            "id": "Aera Countryside (5)",
+            "id": "Aera Countryside",
+            "hotkey": 5,
             "x": 150,
             "y": 0
         },
         {
-            "id": "Artius River (2)",
+            "id": "Artius River",
+            "hotkey": 2,
             "x": -150,
             "y": 150
         },
         {
-            "id": "Northwest Hills (5)",
+            "id": "Northwest Hills",
+            "hotkey": 5,
             "x": -150,
             "y": 0
         },
         {
-            "id": "The Fork (1)",
+            "id": "The Fork",
+            "hotkey": 1,
             "x": -300,
             "y": 0
         },
         {
-            "id": "High Road (1)",
+            "id": "High Road",
+            "hotkey": 1,
             "x": -450,
             "y": 0
         },
         {
-            "id": "High Road: Swampland (1)",
+            "id": "High Road: Swampland",
+            "hotkey": 1,
             "x": -600,
             "y": 0
         },
         {
-            "id": "Spider cave Caveren (1)",
+            "id": "Spider cave Caveren",
+            "hotkey": 1,
             "x": -450,
             "y": 150
         },
         {
-            "id": "Deathly Forest (1)",
+            "id": "Deathly Forest",
+            "hotkey": 1,
             "x": -600,
             "y": 150
+        },
+        {
+            "id": "Dense Jungle 1",
+            "hotkey": 1,
+            "x": -600,
+            "y": -150,
+            "normal": {
+                "fill": "#93C47D"
+            }
+        },
+        {
+            "id": "Dense Jungle 2",
+            "hotkey": 1,
+            "x": -550,
+            "y": -300,
+            "normal": {
+                "fill": "#93C47D"
+            }
+        },
+        {
+            "id": "Dense Jungle 1",
+            "hotkey": 1,
+            "x": -600,
+            "y": -150,
+            "normal": {
+                "fill": "#93C47D"
+            }
+        },
+        {
+            "id": "Dense Jungle 3",
+            "hotkey": 1,
+            "x": -750,
+            "y": -300,
+            "normal": {
+                "fill": "#93C47D"
+            }
+        },
+        {
+            "id": "Dense Jungle 4",
+            "hotkey": 1,
+            "x": -750,
+            "y": -450,
+            "normal": {
+                "fill": "#93C47D"
+            }
+        },
+        {
+            "id": "Dense Jungle 5",
+            "hotkey": 1,
+            "x": -600,
+            "y": -450,
+            "normal": {
+                "fill": "#93C47D"
+            }
+        },
+        {
+            "id": "Dense Jungle 6",
+            "hotkey": 1,
+            "x": -600,
+            "y": -600,
+            "normal": {
+                "fill": "#93C47D"
+            }
         }
     ],
     "edges": [
         {
             "from": "Aera",
-            "to": "Aera Countryside (5)"
+            "to": "Aera Countryside"
         },
         {
             "from": "Aera",
-            "to": "Artius River (2)"
+            "to": "Artius River"
         },
         {
             "from": "Aera",
-            "to": "Northwest Hills (5)"
+            "to": "Northwest Hills"
         },
         {
-            "from": "Northwest Hills (5)",
-            "to": "The Fork (1)"
+            "from": "Northwest Hills",
+            "hotkey": 5,
+            "to": "The Fork"
         },
         {
-            "from": "The Fork (1)",
-            "to": "High Road (1)"
+            "from": "The Fork",
+            "hotkey": 1,
+            "to": "High Road"
         },
         {
-            "from": "High Road (1)",
-            "to": "High Road: Swampland (1)"
+            "from": "High Road",
+            "hotkey": 1,
+            "to": "High Road: Swampland"
         },
         {
-            "from": "The Fork (1)",
-            "to": "Spider cave Caveren (1)"
+            "from": "The Fork",
+            "hotkey": 1,
+            "to": "Spider cave Caveren"
         },
         {
-            "from": "Spider cave Caveren (1)",
-            "to":"Deathly Forest (1)"
+            "from": "Spider cave Caveren",
+            "hotkey": 1,
+            "to": "Deathly Forest"
+        },
+        {
+            "from": "High Road: Swampland",
+            "hotkey": 1,
+            "to": "Dense Jungle 1"
+        },
+        {
+            "from": "Dense Jungle 1",
+            "hotkey": 1,
+            "to": "Dense Jungle 2"
+        },
+        {
+            "from": "Dense Jungle 2",
+            "hotkey": 1,
+            "to": "Dense Jungle 3"
+        },
+        {
+            "from": "Dense Jungle 2",
+            "hotkey": 1,
+            "to": "Dense Jungle 4"
+        },
+        {
+            "from": "Dense Jungle 2",
+            "hotkey": 1,
+            "to": "Dense Jungle 6"
+        },
+        {
+            "from": "Dense Jungle 2",
+            "hotkey": 1,
+            "to": "Dense Jungle 5"
+        },
+        {
+            "from": "Dense Jungle 3",
+            "hotkey": 1,
+            "to": "Dense Jungle 2"
+        },
+        {
+            "from": "Dense Jungle 3",
+            "hotkey": 1,
+            "to": "Dense Jungle 4"
+        },
+        {
+            "from": "Dense Jungle 3",
+            "hotkey": 1,
+            "to": "Dense Jungle 5"
+        },
+        {
+            "from": "Dense Jungle 4",
+            "hotkey": 1,
+            "to": "Dense Jungle 5"
+        },
+        {
+            "from": "Dense Jungle 4",
+            "hotkey": 1,
+            "to": "Dense Jungle 6"
+        },
+        {
+            "from": "Dense Jungle 5",
+            "hotkey": 1,
+            "to": "Dense Jungle 6"
         }
     ]
 }
