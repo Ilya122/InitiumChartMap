@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Network Graph</title>
+    <style>
+        html,
+        body,
+        #container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-graph.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.8.0/js/anychart-data-adapter.min.js"></script>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script lang="javascript">
+
+        anychart.onDocumentReady(() => {
+            fetch("file.json")
+                .then(response => response.json())
+                .then(json => {
+                    console.log(json);
+                    // create a chart from the loaded  data
+                    var chart = anychart.graph(json);
+                    chart.title()
+                        .enabled(true)
+                        .text('Nodes set');
+
+                    var nodesConfig = {
+                        normal: {
+                            shape: 'square',
+                            stroke: 'none',
+                            fill: '#FF8207',
+                            height: 25
+                        },
+                        hovered: {
+                            fill: '#2485D0'
+                        },
+                        selected: {
+                            stroke: '2 orange'
+                        },
+                    };
+                    //chart.nodes().labels().format("{%id}");
+                    chart.nodes().labels().fontSize(12);
+                    chart.nodes().labels().fontWeight(600);
+                    chart.nodes().labels().enabled(true);
+
+                    chart.layout().type("fixed");
+
+                    //chart.nodes(nodesConfig);
+                    // set the title
+                    chart.title("Updated map of Initium Realm");
+                    // draw the chart
+                    chart.container("container").draw();
+                });
+
+        });
+
+    </script>
+</body>
+
+</html>

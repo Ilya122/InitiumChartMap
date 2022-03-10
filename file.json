@@ -1,0 +1,87 @@
+{
+    "nodes": [
+        {
+            "id": "Aera",
+            "height": 60,
+            "fill": {
+                "src": "town.png"
+            },
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "Aera Countryside (5)",
+            "x": 150,
+            "y": 0
+        },
+        {
+            "id": "Artius River (2)",
+            "x": -150,
+            "y": 150
+        },
+        {
+            "id": "Northwest Hills (5)",
+            "x": -150,
+            "y": 0
+        },
+        {
+            "id": "The Fork (1)",
+            "x": -300,
+            "y": 0
+        },
+        {
+            "id": "High Road (1)",
+            "x": -450,
+            "y": 0
+        },
+        {
+            "id": "High Road: Swampland (1)",
+            "x": -600,
+            "y": 0
+        },
+        {
+            "id": "Spider cave Caveren (1)",
+            "x": -450,
+            "y": 150
+        },
+        {
+            "id": "Deathly Forest (1)",
+            "x": -600,
+            "y": 150
+        }
+    ],
+    "edges": [
+        {
+            "from": "Aera",
+            "to": "Aera Countryside (5)"
+        },
+        {
+            "from": "Aera",
+            "to": "Artius River (2)"
+        },
+        {
+            "from": "Aera",
+            "to": "Northwest Hills (5)"
+        },
+        {
+            "from": "Northwest Hills (5)",
+            "to": "The Fork (1)"
+        },
+        {
+            "from": "The Fork (1)",
+            "to": "High Road (1)"
+        },
+        {
+            "from": "High Road (1)",
+            "to": "High Road: Swampland (1)"
+        },
+        {
+            "from": "The Fork (1)",
+            "to": "Spider cave Caveren (1)"
+        },
+        {
+            "from": "Spider cave Caveren (1)",
+            "to":"Deathly Forest (1)"
+        }
+    ]
+}
