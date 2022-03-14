@@ -125,6 +125,71 @@
             "fill": {
                 "src": "denseJungle.png"
             }
+        },
+        {
+            "id": "Aera Swamplands",
+            "hotkey": 2,
+            "x": 150,
+            "y": 150,
+            "height": 40,
+            "normal": {
+                "fill": "#00A500"
+            }
+        },
+        {
+            "id": "Troll Camp",
+            "hotkey": 2,
+            "x": 300,
+            "y": 150,
+            "height": 20
+        },
+        {
+            "id": "Troll Cave Entrance",
+            "hotkey": 2,
+            "hidden": true,
+            "x": 450,
+            "y": 0,
+            "height": 20
+        },
+        {
+            "id": "Troll Caves (King)",
+            "hotkey": 2,
+            "x": 600,
+            "y": 0,
+            "height": 20,
+            "normal": {
+                "fill": "#A32600"
+            }
+        },
+        {
+            "id": "Wildburn Forest (Protector)",
+            "hotkey": 2,
+            "x": 300,
+            "y": 0,
+            "height": 20,
+            "normal": {
+                "fill": "#00A500"
+            }
+        },
+        {
+            "id": "Taelhollow Swamp (Protector)",
+            "hotkey": 2,
+            "x": 450,
+            "y": -150,
+            "height": 20,
+            "normal": {
+                "fill": "#00A500"
+            }
+        },
+        {
+            "id": "Taelhollow Hut",
+            "hotkey": 2,
+            "x": 600,
+            "y": -150,
+            "height": 20,
+            "normal": {
+                "fill": "#FFFF00"
+            }
         }
     ],
     "edges": [
@@ -139,6 +204,38 @@
         {
             "from": "Aera",
             "to": "Northwest Hills"
+        },
+        {
+            "from": "Aera Countryside",
+            "to": "Aera Swamplands"
+        },
+        {
+            "from": "Aera Countryside",
+            "to": "Troll Camp"
+        },
+        {
+            "from": "Aera Swamplands",
+            "to": "Troll Camp"
+        },
+        {
+            "from": "Troll Camp",
+            "to": "Troll Cave Entrance"
+        },
+        {
+            "from": "Troll Cave Entrance",
+            "to": "Troll Caves (King)"
+        },
+        {
+            "from": "Aera Countryside",
+            "to": "Wildburn Forest (Protector)"
+        },
+        {
+            "from": "Wildburn Forest (Protector)",
+            "to": "Taelhollow Swamp (Protector)"
+        },
+        {
+            "from": "Taelhollow Swamp (Protector)",
+            "to": "Taelhollow Hut"
         },
         {
             "from": "Northwest Hills",
