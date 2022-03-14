@@ -190,6 +190,82 @@
             "normal": {
                 "fill": "#FFFF00"
             }
+        },
+        {
+            "id": "Giant Turtle",
+            "x": 300,
+            "y": -150,
+            "height": 20,
+            "normal": {
+                "fill": "#00FF00"
+            }
+        },
+        {
+            "id": "Shadow of a Behemoth",
+            "x": 300,
+            "y": -300,
+            "height": 20,
+            "normal": {
+                "fill": "#00FF00"
+            }
+        },
+        {
+            "id": "Northen Hills",
+            "x": 150,
+            "y": -150,
+            "height": 60,
+            "fill": {
+                "src": "orcShaman.png"
+            },
+            "mobs": [
+                "Orc Shaman"
+            ]
+        },
+        {
+            "id": "Great Northern Valley",
+            "hotkey": 1,
+            "x": 150,
+            "y": -300,
+            "height": 60,
+            "fill": {
+                "src": "orcShaman.png"
+            },
+            "mobs": [
+                "Orc Shaman"
+            ]
+        },
+        {
+            "id": "Overgrown Path",
+            "hotkey": 1,
+            "x": 150,
+            "y": -450,
+            "height": 60,
+            "fill": {
+                "src": "orcShaman.png"
+            },
+            "mobs": [
+                "Orc Shaman"
+            ]
+        },
+        {
+            "id": "Mystic Temple Ruin",
+            "hotkey": 1,
+            "x": 150,
+            "y": -600,
+            "height": 60,
+            "fill": {
+                "src": "orcShaman.png"
+            },
+            "mobs": [
+                "Orc Shaman"
+            ]
+        },
+        {
+            "id": "Outer Gate",
+            "hotkey": 1,
+            "x": 300,
+            "y": -600,
+            "height": 20
         }
     ],
     "edges": [
@@ -211,7 +287,35 @@
         },
         {
             "from": "Aera Countryside",
+            "to": "Giant Turtle"
+        },
+        {
+            "from": "Aera Countryside",
             "to": "Troll Camp"
+        },
+        {
+            "from": "Aera Countryside",
+            "to": "Northen Hills"
+        },
+        {
+            "from": "Northen Hills",
+            "to": "Shadow of a Behemoth"
+        },
+        {
+            "from": "Northen Hills",
+            "to": "Great Northern Valley"
+        },
+        {
+            "from": "Great Northern Valley",
+            "to": "Overgrown Path"
+        },
+        {
+            "from": "Overgrown Path",
+            "to": "Mystic Temple Ruin"
+        },
+        {
+            "from": "Overgrown Path",
+            "to": "Outer Gate"
         },
         {
             "from": "Aera Swamplands",
