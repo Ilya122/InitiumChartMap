@@ -13,7 +13,11 @@
             "id": "Aera Countryside",
             "hotkey": 5,
             "x": 150,
-            "y": 0
+            "y": 0,
+            "height": 40,
+            "normal": {
+                "fill": "#FCE5CD"
+            }
         },
         {
             "id": "Artius River",
@@ -133,7 +137,47 @@
             "y": 150,
             "height": 40,
             "normal": {
+                "fill": "#FCE5CD"
+            }
+        },
+        {
+            "id": "Grand Mountain",
+            "hotkey": 0,
+            "x": 150,
+            "y": 300,
+            "height": 40,
+            "normal": {
+                "fill": "#CFE2F3"
+            }
+        },
+        {
+            "id": "Desert",
+            "hotkey": 0,
+            "x": 150,
+            "y": 450,
+            "height": 40,
+            "normal": {
+                "fill": "#FCE5CD"
+            }
+        },
+        {
+            "id": "Cliffside Lookout",
+            "hotkey": 0,
+            "x": 150,
+            "y": 600,
+            "height": 40,
+            "normal": {
                 "fill": "#00A500"
+            }
+        },
+        {
+            "id": "Ancient Phoenix",
+            "hotkey": 0,
+            "x": 0,
+            "y": 150,
+            "height": 40,
+            "normal": {
+                "fill": "#00FF00"
             }
         },
         {
@@ -156,9 +200,9 @@
             "hotkey": 2,
             "x": 600,
             "y": 0,
-            "height": 20,
-            "normal": {
-                "fill": "#A32600"
+            "height": 40,
+            "fill": {
+                "src": "TrollKing.png"
             }
         },
         {
@@ -182,6 +226,19 @@
             }
         },
         {
+            "id": "Taelhollow Swamp Shrine",
+            "hotkey": 2,
+            "x": 450,
+            "y": -150,
+            "height": 20,
+            "normal": {
+                "fill": "#A32600"
+            },
+            "mobs": [
+                "Protector"
+            ]
+        },
+        {
             "id": "Taelhollow Hut",
             "hotkey": 2,
             "x": 600,
@@ -201,6 +258,30 @@
             }
         },
         {
+            "id": "Concealed Cavern",
+            "x": 450,
+            "y": -300,
+            "height": 20,
+            "normal": {
+                "fill": "#00A500"
+            },
+            "mobs": [
+                "Juvenile Turtle"
+            ]
+        },
+        {
+            "id": "Claw marked Cavern",
+            "x": 450,
+            "y": -450,
+            "height": 20,
+            "normal": {
+                "fill": "#00A500"
+            },
+            "mobs": [
+                "Juvenile Turtle"
+            ]
+        },
+        {
             "id": "Shadow of a Behemoth",
             "x": 300,
             "y": -300,
@@ -216,6 +297,18 @@
             "height": 60,
             "fill": {
                 "src": "orcShaman.png"
+            },
+            "mobs": [
+                "Orc Shaman"
+            ]
+        },
+        {
+            "id": "Engorged Troll Den",
+            "x": 300,
+            "y": -225,
+            "height": 20,
+            "normal": {
+                "fill": "#00A500"
             },
             "mobs": [
                 "Orc Shaman"
@@ -245,6 +338,19 @@
             },
             "mobs": [
                 "Orc Shaman"
+            ]
+        },
+        {
+            "id": "Ratargul Swamp",
+            "hotkey": 1,
+            "x": 300,
+            "y": -450,
+            "height": 40,
+            "normal": {
+                "fill": "#A32600"
+            },
+            "mobs": [
+                "Boggart Chieftain"
             ]
         },
         {
@@ -286,8 +392,32 @@
             "to": "Aera Swamplands"
         },
         {
+            "from": "Aera Swamplands",
+            "to": "Grand Mountain"
+        },
+        {
+            "from": "Grand Mountain",
+            "to": "Ancient Phoenix"
+        },
+        {
+            "from": "Grand Mountain",
+            "to": "Desert"
+        },
+        {
+            "from": "Desert",
+            "to": "Cliffside Lookout"
+        },
+        {
             "from": "Aera Countryside",
             "to": "Giant Turtle"
+        },
+        {
+            "from": "Giant Turtle",
+            "to": "Concealed Cavern"
+        },
+        {
+            "from": "Concealed Cavern",
+            "to": "Claw marked Cavern"
         },
         {
             "from": "Aera Countryside",
@@ -306,8 +436,16 @@
             "to": "Great Northern Valley"
         },
         {
+            "from": "Northen Hills",
+            "to": "Engorged Troll Den"
+        },
+        {
             "from": "Great Northern Valley",
             "to": "Overgrown Path"
+        },
+        {
+            "from": "Overgrown Path",
+            "to": "Ratargul Swamp"
         },
         {
             "from": "Overgrown Path",
