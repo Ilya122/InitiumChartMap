@@ -6,4 +6,4 @@ This is "Static" generated map which built from ``index.html``.
 To actually run this we need to provide a server, easiest way is to build python:  
 ``python -m http.server``.
 
-This project in uncontinued
+This project in discontinued
